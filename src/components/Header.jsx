@@ -1,11 +1,14 @@
 import React from "react";
 import "./css/bootstrap.min.css";
 import "./css/header.css";
+import Heading from "./Heading";
+import Navbar from "./Navbar";
 
 const Header = () => {
   return (
-    <div className="container border text-center">
-      <h1>Header</h1>
+    <div className="container  text-center mt-3">
+      <Heading />
+      <Navbar />
     </div>
   );
 };
