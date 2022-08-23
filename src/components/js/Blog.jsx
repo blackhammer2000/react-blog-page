@@ -1,6 +1,6 @@
 import React from "react";
-import "./css/blog.css";
-import "./css/bootstrap.min.css";
+import "../css/blog.css";
+import "../css/bootstrap.min.css";
 
 const Blog = ({ data, index }) => {
   return (

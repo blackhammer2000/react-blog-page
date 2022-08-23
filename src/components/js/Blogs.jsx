@@ -1,7 +1,7 @@
 import React from "react";
-import "./css/bootstrap.min.css";
+import "../css/bootstrap.min.css";
 import Blog from "./Blog";
-import { news } from "../database/database";
+import { news } from "../../database/database";
 
 const Blogs = () => {
   return (

@@ -1,6 +1,6 @@
-import Header from "./components/Header";
-import Blogs from "./components/Blogs";
-import Footer from "./components/Footer";
+import Header from "./components/js/Header";
+import Blogs from "./components/js/Blogs";
+import Footer from "./components/js/Footer";
 
 function App() {
   return (

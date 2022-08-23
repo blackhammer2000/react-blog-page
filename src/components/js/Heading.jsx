@@ -1,6 +1,6 @@
 import React from "react";
-import "./css/bootstrap.min.css";
-import "./css/heading.css";
+import "../css/bootstrap.min.css";
+import "../css/heading.css";
 
 const Heading = () => {
   return (

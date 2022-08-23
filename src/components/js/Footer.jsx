@@ -1,7 +1,7 @@
 import React from "react";
-import "./css/bootstrap.min.css";
-import "./css/footer.css";
-import { currentYear } from "../utilities/year";
+import "../css/bootstrap.min.css";
+import "../css/footer.css";
+import { currentYear } from "../../utilities/year";
 
 const Footer = () => {
   return (
