@@ -5,7 +5,7 @@ import "../css/navbar.css";
 const Navbar = () => {
   return (
     <div className="container  d-flex justify-content-center align-items-center">
-      <ul className="list-unstyled d-flex justify-content-center align-items-center ">
+      <ul className="w-75 list-unstyled d-flex justify-content-center align-items-center ">
         <li className="mx-1 px2 ">
           <button className="btn btn-outline-primary border-0" type="submit">
             Home
