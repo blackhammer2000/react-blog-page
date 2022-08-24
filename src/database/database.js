@@ -29,6 +29,11 @@ const news = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, in omnis. Sint cupiditate atque, ipsam explicabo, laudantium rem fugiat perspiciatis ad soluta eius et vitae aspernatur, ut architecto quibusdam velit molestias? Quidem similique quos, ipsum voluptatum quaerat dolores asperiores perspiciatis ullam iste beatae facere nostrum quo neque repellendus alias ratione nisi veniam ab voluptate.",
   },
+  {
+    title: "UNGA CRISIS, Please feed us...",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, in omnis. Sint cupiditate atque, ipsam explicabo, laudantium rem fugiat perspiciatis ad soluta eius et vitae aspernatur, ut architecto quibusdam velit molestias? Quidem similique quos, ipsum voluptatum quaerat dolores asperiores perspiciatis ullam iste beatae facere nostrum quo neque repellendus alias ratione nisi veniam ab voluptate.",
+  },
 ];
 
 export { news };

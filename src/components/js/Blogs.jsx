@@ -6,7 +6,7 @@ import { news } from "../../database/database";
 const Blogs = () => {
   return (
     <div className="container d-flex justify-content-start align-items-center mt-4 flex-column">
-      {news.map((bulletin, index) => {
+      {news.reverse().map((bulletin, index) => {
         return <Blog data={bulletin} index={index} />;
       })}
     </div>
