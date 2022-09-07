@@ -1,35 +1,36 @@
 import React from "react";
 import "../css/bootstrap.min.css";
 import "../css/navbar.css";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <div className="container  d-flex justify-content-center align-items-center">
       <ul className="w-75 list-unstyled d-flex justify-content-center align-items-center ">
         <li className="mx-1 px2 ">
-          <button className="btn btn-outline-primary border-0" type="submit">
+          <Link to={"/"} className="btn btn-outline-primary border-0">
             Home
-          </button>
+          </Link>
         </li>
         <li className="mx-1 px2 ">
-          <button className="btn btn-outline-primary border-0" type="submit">
+          <Link to={"/"} className="btn btn-outline-primary border-0">
             About
-          </button>
+          </Link>
         </li>
         <li className="mx-1 px2 ">
-          <button className="btn btn-outline-primary border-0" type="submit">
+          <Link to={"/"} className="btn btn-outline-primary border-0">
             Services
-          </button>
+          </Link>
         </li>
         <li className="mx-1 px2 ">
-          <button className="btn btn-outline-primary border-0" type="submit">
+          <Link to={"/"} className="btn btn-outline-primary border-0">
             Projects
-          </button>
+          </Link>
         </li>
         <li className="mx-1 px2 ">
-          <button className="btn btn-outline-primary border-0" type="submit">
+          <Link to={"/"} className="btn btn-outline-primary border-0">
             Contact
-          </button>
+          </Link>
         </li>
       </ul>
     </div>

@@ -4,7 +4,7 @@ import "../css/bootstrap.min.css";
 
 const Blog = ({ data, index }) => {
   return (
-    <div className="container-fluid border my-3 py-3">
+    <div className="container-fluid border my-3 py-3 " key={index}>
       <div className="container-fluid text-left text-underline">
         <h5>
           {index + 1}: {data.title}
@@ -15,6 +15,9 @@ const Blog = ({ data, index }) => {
           {data.description}
           <span className="text-info link">Read more...</span>
         </p>
+      </div>
+      <div className="container-fluid text-left">
+        <h6>Written by {data.author}</h6>
       </div>
     </div>
   );
